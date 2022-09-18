@@ -38,7 +38,6 @@
   </div>
 
   <div class="greyCircle"></div>
-  <div class="greySquare"></div>
 
 </template>
 
@@ -62,23 +61,11 @@ export default {
 .greyCircle {
   position: absolute;
   z-index: -1;
-  left: 50%;
-  transform: translate(-50%, -85%);
-  width: 2000px;
-  height: 1025px;
-  border-radius: 50%;
   background: #D9D9D9;
-}
-
-.greySquare {
-  position: absolute;
-  z-index: -1;
-  left: 50%;
-  transform: translate(-50%, -65%);
-  width: 2000px;
-  height: 300px;
-  border-radius: 50%;
-  background: #D9D9D9;
+  transform: translate(0, -86%);
+  height: 1000px;
+  width: 100%;
+  border-radius: 40% 40% 0 0;
 }
 
 input, select {
@@ -247,6 +234,26 @@ label a {
 @media screen and (max-width: 1073px) {
   .greyCircle, .greySquare {
     display: none;
+  }
+}
+
+@media screen and (max-width: 555px) {
+  input {
+    width: 300px;
+  }
+
+  select {
+    width: 370px;
+  }
+}
+
+@media screen and (max-width: 435px) {
+  input {
+    width: 250px;
+  }
+
+  select {
+    width: 320px;
   }
 }
 

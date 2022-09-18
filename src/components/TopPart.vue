@@ -40,12 +40,16 @@ export default {
 .whiteCircle {
   position: absolute;
   z-index: -1;
-  top: -40%;
-  left: -25%;
+  top: -10%;
+  left: -10%;
+  width: 70%;
+  height: 70%;
   width: 1500px;
-  height: 1200px;
-  border-radius: 50%;
+  height: 1500px;
   background: #FFFFFF;
+  border-radius: 0 0 1500px 0;
+  -moz-border-radius: 0 0 1500px 0;
+  -webkit-border-radius: 0 0 1500px 0;
 }
 
 .leftPart {

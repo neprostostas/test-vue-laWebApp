@@ -83,17 +83,17 @@ export default {
 }
 
 .cloud-xs {
-  position: relative;
+  position: absolute;
   z-index: -4;
-  top: 7%;
+  top: 40%;
   left: 19%;
 }
 
 .cloud {
-  position: relative;
+  position: absolute;
   z-index: -3;
-  top: 5%;
-  left: 66%;
+  top: 25%;
+  right: 14%;
 }
 
 .woman img {
@@ -101,10 +101,10 @@ export default {
 }
 
 .woman {
-  position: relative;
+  position: absolute;
   z-index: -2;
-  top: -74%;
-  left: 65%;
+  top: 24%;
+  right: 200px;
 }
 
 .vase img {
@@ -112,17 +112,17 @@ export default {
 }
 
 .vase {
-  position: relative;
+  position: absolute;
   z-index: -2;
   top: 40%;
   left: 15%;
 }
 
 .darkBlueCircle {
-  position: relative;
+  position: absolute;
   z-index: -5;
-  top: 20%;
-  left: -8%;
+  top: 60%;
+  left: -10%;
   width: 600px;
   height: 600px;
   border-radius: 50%;
